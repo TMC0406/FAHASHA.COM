@@ -6,6 +6,7 @@
 
 .grid.wide {
     max-width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
 }
 
@@ -43,6 +44,10 @@
 .c-2 {
     flex: 0 0 16.66667%;
     max-width: 16.66667%;
+}
+.c-20 {
+    flex: 0 0 20%;
+    max-width: 20%;
 }
 
 .c-3 {
@@ -381,9 +386,15 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-
+    .l-o-0{
+        margin: 0;
+    }
     .l-o-1 {
         margin-left: 8.33333%;
+    }
+
+    .l-o--1 {
+        margin-left: -8.33333%;
     }
 
     .l-o-2 {
