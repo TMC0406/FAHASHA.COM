@@ -19,3 +19,7 @@
 .bgr{
     background-color: #fff !important;
 }
+
+.header__navbar-item-cart a{
+    color: #7a7e7f;
+}

@@ -19,8 +19,8 @@ html{
     box-sizing: border-box;
 }
 .grid-header{
-    width: 1290px;
-    max-width: 100%;
+    /* width: 1290px; */
+    max-width: 1200px;
     margin: 0 auto;
 
 }

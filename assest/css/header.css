@@ -360,10 +360,6 @@ header{
     
 }
 
-
-
-
-
 .header__input-search{
     flex: 1;
     height: 100%;
@@ -402,9 +398,13 @@ header{
     font-size:12px;
     color: #7a7e7f;
     padding-right: 20px;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
+
+.header__navbar-item-user a{
+    color: #7a7e7f;
+}
+
 .header__navbar-item-icon-bell,
 .header__navbar-item-icon-cart,
 .header__navbar-item-icon-user{

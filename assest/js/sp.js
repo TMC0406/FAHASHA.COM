@@ -339,6 +339,8 @@ function renderListPage(totalPages) {
     document.getElementById('number-page').innerHTML = html;
 }
 
+
+// nex  số..
 function changePage() {
     const idPages = document.querySelectorAll('.number-page li');
     const a = document.querySelectorAll('.number-page li a');
